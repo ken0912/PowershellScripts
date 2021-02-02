@@ -1,0 +1,1 @@
+exec master..xp_cmdshell ' powershell.exe "& {G:\PowershellScripts\ExchangeRate\ExchangeRate.ps1  -scur USD -tcur ZWD}" '
